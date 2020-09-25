@@ -905,7 +905,7 @@ const date = new Date()
 
 let condition_year = date.getFullYear() - 18
 let selected_year = parseInt(this.date1.split("-")[0])
-payload.under_age = (selected_year <= condition_year) ? false : true ;
+payload.under_age = selected_year <= condition_year ? false : true ;
 this.$store.dispatch('hold_ci',payload);
 
 
@@ -935,13 +935,11 @@ if(this.zakat_certificate.name == '' && this.zakat_options == 'file'){
 else{ this.valid4zakat_certificate = false; }
 
 
+// just removed validation for testing purpose
+if(!this.$store.state.auto_fill){
+payload.qq = 'pk'
+payload.under_age = false
 
-if(!this.$store.state.auto_fill
-&& this.$refs.form.validate() 
-&& !this.valid4cnic_attachment
-&& !this.valid4soi_attachment 
-&& !this.valid4zakat_certificate
-){
 if(payload.qq != 'pk' || payload.under_age == true){
 this.$store.dispatch('save_form');
 }
@@ -952,6 +950,32 @@ let class_to_be_remove = document.getElementsByClassName('error--text')[0];
 class_to_be_remove.parentNode.removeChild(class_to_be_remove);
 }  
 }
+
+// just removed validation for testing purpose ========> end
+
+// original code
+
+// if(!this.$store.state.auto_fill
+// && this.$refs.form.validate() 
+// && !this.valid4cnic_attachment
+// && !this.valid4soi_attachment 
+// && !this.valid4zakat_certificate
+// ){
+// payload.qq = 'pk'
+// payload.under_age = false
+
+// if(payload.qq != 'pk' || payload.under_age == true){
+// this.$store.dispatch('save_form');
+// }
+// else{
+// window.scrollTo(0,0);
+// this.$store.dispatch('move',2);
+// let class_to_be_remove = document.getElementsByClassName('error--text')[0];
+// class_to_be_remove.parentNode.removeChild(class_to_be_remove);
+// }  
+// }
+
+// original code end
 
 else{
    setTimeout(() => { 

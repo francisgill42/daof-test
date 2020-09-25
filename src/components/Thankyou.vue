@@ -3,7 +3,7 @@
    <v-layout wrap>
 <v-flex xs12>
       <blockquote class="headline text-center blockquote">
-          <!-- <strong>CONGRATULATIONS!</strong> -->
+          <strong>CONGRATULATIONS!</strong>
           <!-- <aiw /> -->
 
             <div class="mt-2">
@@ -17,8 +17,8 @@
                 
                 </div>
       </blockquote>
- <v-layout align-center justify-center>
-     <v-img max-height="250" src="@/assets/add_image.jpeg" aspect-ratio="1.7" contain></v-img>
+ <v-layout style="border:2px solid #af292a; padding:5px; background:#af292a;" align-center justify-center>
+     <v-img src="@/assets/banner-1.jpg" aspect-ratio="3.8"></v-img>
   </v-layout>      
 </v-flex>
 

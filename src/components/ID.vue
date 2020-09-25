@@ -526,7 +526,13 @@ this.valid = true;
 if(this.wform.name == ''){
 this.valid_4_wform = true;
 }
-if(this.$refs.form.validate() && !this.valid){
+// testing single line
+if(!this.$refs.form.validate() && this.valid){
+
+
+// live single line
+// if(this.$refs.form.validate() && !this.valid){
+
 
 //bank details    
 
