@@ -18,7 +18,7 @@
                 </div>
       </blockquote>
  <v-layout align-center justify-center>
-     <v-img max-height="250" src="@/assets/add_image.jpeg" aspect-ratio="1.7" contain></v-img>
+    <v-img src="@/assets/banner-1.jpg" aspect-ratio="3.8"></v-img>
   </v-layout>      
 </v-flex>
 
