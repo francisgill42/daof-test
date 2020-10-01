@@ -8,8 +8,8 @@
 
 </v-toolbar-title>
 <v-spacer></v-spacer>
-<v-btn style="margin-right:79px;" class="primary" text href="https://orangeroomdigital.com/salesapp/public/">
-<span>Dashboard (DEV)</span>
+<v-btn style="margin-right:79px;" class="primary" text href="https://salesappai.vardasolutions.com/">
+<span>Dashboard</span>
 </v-btn>
 </v-app-bar>
 
