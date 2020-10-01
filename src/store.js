@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {  
   base_url:'https://salesappai.vardasolutions.com/api/',  
   // base_url:'http://localhost/pro/salesapp-ai/public/api/',  
-  // base_url:'https://salesapp.hblasset.com/api/',  
+  // base_url:'https://salesapp.test.com/api/',  
   name:'',
   fathername:'',
   mothername:'',

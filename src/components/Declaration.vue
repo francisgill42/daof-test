@@ -12,7 +12,7 @@
 </v-flex>
 
 <v-flex xs12>
-  <blockquote class="blockquote">3. In case of any change in any information provided through this form, I hereby undertake to immediately inform HBL AMC of the same and provide an updated information to HBL AMC within thirty (30) days.</blockquote>
+  <blockquote class="blockquote">3. In case of any change in any information provided through this form, I hereby undertake to immediately inform ALFALAH INVESTMENT of the same and provide an updated information to ALFALAH INVESTMENT within thirty (30) days.</blockquote>
 </v-flex>
 
 
@@ -21,11 +21,11 @@
 </v-flex>
 
 <v-flex xs12>
-  <blockquote class="blockquote">5. I/We hereby permit HBL AMC, subject to applicable local laws, to share my information with domestic or overseas regulators or tax authorities where necessary to establish my tax liability in any jurisdiction. Where required by domestic or overseas regulators or tax authorities, I/We further agree that HBL AMC may withhold from account(s) such amount as may be required according to applicable laws, regulation and directives. I/We will indemnify and hold harmless HBL AMC from any loss, action, cost, expense (including, but not limited to sums paid in settlement of claims, reasonable attorney's and consultant fees, and expert fees), claim damages, or liability which arises or is incurred by HBL AMC in discharging its obligation under FATCA/CRS as a result of disclosures to external tax authorities.</blockquote>
+  <blockquote class="blockquote">5. I/We hereby permit ALFALAH INVESTMENT, subject to applicable local laws, to share my information with domestic or overseas regulators or tax authorities where necessary to establish my tax liability in any jurisdiction. Where required by domestic or overseas regulators or tax authorities, I/We further agree that ALFALAH INVESTMENT may withhold from account(s) such amount as may be required according to applicable laws, regulation and directives. I/We will indemnify and hold harmless ALFALAH INVESTMENT from any loss, action, cost, expense (including, but not limited to sums paid in settlement of claims, reasonable attorney's and consultant fees, and expert fees), claim damages, or liability which arises or is incurred by ALFALAH INVESTMENT in discharging its obligation under FATCA/CRS as a result of disclosures to external tax authorities.</blockquote>
 </v-flex>
 
 <v-flex xs12>
-  <blockquote class="blockquote">6. I undertake to notify HBL AMC within 30 Calender days if there is a change in any information which I have provided to HBL AMC. I/We understand and accept that HBL AMC reserves the right to close or suspend my account, without prior notice, if required document/information is not submitted within a stipulated time.</blockquote>
+  <blockquote class="blockquote">6. I undertake to notify ALFALAH INVESTMENT within 30 Calender days if there is a change in any information which I have provided to ALFALAH INVESTMENT. I/We understand and accept that ALFALAH INVESTMENT reserves the right to close or suspend my account, without prior notice, if required document/information is not submitted within a stipulated time.</blockquote>
 </v-flex>
 
 <v-flex xs12>

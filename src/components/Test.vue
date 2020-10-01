@@ -35,7 +35,7 @@ import axios from 'axios';
       </soap12:Body>
       </soap12:Envelope>`;
 
-      axios.post('https://daofservice.hblasset.com/DigitalAccountOpenTillVerify.asmx?op=GetCountry',
+      axios.post('https://daofservice.test.com/DigitalAccountOpenTillVerify.asmx?op=GetCountry',
       xmls,
       {headers:
       {'Content-Type': 'text/xml'}

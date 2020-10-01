@@ -363,7 +363,7 @@ v-model="date1"
    
 
     <v-flex xs12 class="z_radio">
-    <v-radio label="E-mail us at: info@hblasset.com" value="email"></v-radio>
+    <v-radio label="E-mail us at: info@test.com" value="email"></v-radio>
     </v-flex>
     <v-flex xs12 class="z_radio">
     <v-radio  label="Courier us at: 7th Floor, Emerald Tower, G-19, Block 5, Main Clifton Road, Clifton, Karachi" value="courier"></v-radio>
@@ -644,7 +644,7 @@ e1: 0,
 
 value:'',
 
-email4zakat:'info@hblasset.com',
+email4zakat:'info@test.com',
 
 GroupByRequired : [
 v => !!v || 'This field is required',
@@ -682,7 +682,7 @@ userScore : '',
       </soap12:Body>
       </soap12:Envelope>`;
 
-      axios.post('https://daofservice.hblasset.com/DigitalAccountOpenTillVerify.asmx?op=GetCountry',
+      axios.post('https://daofservice.test.com/DigitalAccountOpenTillVerify.asmx?op=GetCountry',
       xmls,
       {headers:
       {'Content-Type': 'text/xml'}
@@ -732,7 +732,7 @@ let xmls1=`<?xml version="1.0" encoding="utf-8"?>
 </soap12:Body>
 </soap12:Envelope>`;
 
-axios.post('https://daofservice.hblasset.com/DigitalAccountOpenTillVerify.asmx?op=getCityCodeByCountryID',
+axios.post('https://daofservice.test.com/DigitalAccountOpenTillVerify.asmx?op=getCityCodeByCountryID',
 xmls1,
 {headers:
 {'Content-Type': 'text/xml'}

@@ -234,7 +234,7 @@ label="Dividend pay-out"
 <div v-if="valid_4_wform == true" style="color: #ff1744 !important;">Attachment is required</div>
 </v-flex>
 <v-flex xs12 class="z_radio">
-<v-radio label="E-mail us at: info@hblasset.com" value="email"></v-radio>
+<v-radio label="E-mail us at: info@test.com" value="email"></v-radio>
 </v-flex>
 <v-flex xs12 class="z_radio">
 <v-radio  label="Courier us at: 7th Floor, Emerald Tower, G-19, Block 5, Main Clifton Road, Clifton, Karachi" value="courier"></v-radio>
@@ -352,13 +352,13 @@ v => !!v || 'This field is required',
 ],
 
 funds:[
-{id:1,fundname:'HBL Cash Fund'},
-{id:2,fundname:'HBL Money Market Fund'},
-{id:3,fundname:'HBL Islamic Money Market Fund'},
-// {id:4,fundname:'HBL Government Securities Fund'},
-// {id:5,fundname:'HBL Income Fund'},
-// {id:6,fundname:'HBL Islamic Income Fund'},
-// {id:7,fundname:'HBL Islamic Asset Allocation Fund'}
+{id:1,fundname:'AI Cash Fund'},
+{id:2,fundname:'AI Money Market Fund'},
+{id:3,fundname:'AI Islamic Money Market Fund'},
+// {id:4,fundname:'AI Government Securities Fund'},
+// {id:5,fundname:'AI Income Fund'},
+// {id:6,fundname:'AI Islamic Income Fund'},
+// {id:7,fundname:'AI Islamic Asset Allocation Fund'}
 ],
 branchname:'',
 fundnameRules:[
@@ -415,7 +415,7 @@ val && setTimeout(() => (this.$refs.picker.activePicker = 'YEAR'))
    </soap:Body>
    </soap:Envelope>`;
 
-   axios.post('https://daofservice.hblasset.com/DigitalAccountOpenTillVerify.asmx?op=GetBank',
+   axios.post('https://daofservice.test.com/DigitalAccountOpenTillVerify.asmx?op=GetBank',
    xmls,
    {headers:
    {'Content-Type': 'text/xml'}
@@ -453,7 +453,7 @@ let xmls1=`<?xml version="1.0" encoding="utf-8"?>
   </soap12:Body>
 </soap12:Envelope>`;
 
-axios.post('https://daofservice.hblasset.com/DigitalAccountOpenTillVerify.asmx?op=GetBankBranchByBankID',
+axios.post('https://daofservice.test.com/DigitalAccountOpenTillVerify.asmx?op=GetBankBranchByBankID',
 xmls1,
 {headers:
 {'Content-Type': 'text/xml'}
