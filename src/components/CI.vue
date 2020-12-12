@@ -192,21 +192,21 @@ cities_arr : [
    {CTY_FULLNAME : 'Quetta', CTY_CITYCODE : '1'},
 ],
 
-date1: '1988/09/27',
+date1: '',
 
-date2: '2018/11/12',
+date2: '',
 
 menu1: false,
 
 menu2: false,
 
-name: 'testing',
+name: '',
 
-fathername: 'testing',
+fathername: '',
 
-mothername: 'testing',
+mothername: '',
 
-cnic:'42101-4079068-5',
+cnic:'',
 
 issue_date:'',
 
@@ -214,9 +214,9 @@ dob:'',
 
 pob:'',
 
-cell:'03108559858',
+cell:'',
 
-email: 'francisgill1000@gmail.com',
+email: '',
 
 occupation:'',
 

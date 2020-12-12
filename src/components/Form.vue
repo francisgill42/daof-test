@@ -12,10 +12,10 @@
 <v-divider class="primary"></v-divider>
 
 
-<v-stepper-step :complete="e1 > 3" step="3">Declaration</v-stepper-step>
-<v-divider class="primary"></v-divider>
+<v-stepper-step :complete="e1 > 3" step="3">Confirmation</v-stepper-step>
+<!-- <v-divider class="primary"></v-divider> -->
 
-<v-stepper-step :complete="e1 > 4" step="4">Confirmation</v-stepper-step>
+<!-- <v-stepper-step :complete="e1 > 4" step="4">Confirmation</v-stepper-step> -->
 
 </v-stepper-header>
 
