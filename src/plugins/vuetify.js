@@ -11,7 +11,8 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: '#e32e21',
+        // primary: '#e32e21',
+        primary: colors.orange,
         secondary: colors.grey.darken1,
         accent: colors.shades.black,
         error: colors.red.accent3,

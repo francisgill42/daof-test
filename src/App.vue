@@ -3,12 +3,12 @@
 <v-app-bar app class="white">
 <v-toolbar-title>
     <div style="width: 14%; height:55px; margin-left:79px;" >
-    <v-img style="padding:2%;" src="@/assets/header-logo-img.png" />
+    <!-- <v-img style="padding:2%;" src="@/assets/header-logo-img.png" /> -->
     </div>
 
 </v-toolbar-title>
 <v-spacer></v-spacer>
-<v-btn style="margin-right:79px;" class="primary" text href="https://salesappai.vardasolutions.com/">
+<v-btn style="margin-right:79px;" class="primary" text href="http://localhost/pro/daof-backend/public/">
 <span>Dashboard</span>
 </v-btn>
 </v-app-bar>

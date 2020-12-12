@@ -8,7 +8,7 @@
 <v-stepper-step :complete="e1 > 1" step="1">Customer Information</v-stepper-step>
 <v-divider class="primary"></v-divider>
 
-<v-stepper-step :complete="e1 > 2" step="2">Investment Details</v-stepper-step>
+<v-stepper-step :complete="e1 > 2" step="2">Attachments</v-stepper-step>
 <v-divider class="primary"></v-divider>
 
 
