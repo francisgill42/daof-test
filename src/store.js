@@ -7,7 +7,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {  
   // base_url:'https://salesappai.vardasolutions.com/api/',  
-  base_url:'http://localhost/pro/daof-backend/public/api/',  
+  base_url:'http://45.76.106.58/api/',  
   // base_url:'https://salesapp.test.com/api/',  
   name:'',
   fathername:'',
