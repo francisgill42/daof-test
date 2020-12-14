@@ -8,7 +8,7 @@
 
 </v-toolbar-title>
 <v-spacer></v-spacer>
-<v-btn style="margin-right:79px;" class="primary" text href="http://localhost/pro/daof-backend/public/">
+<v-btn style="margin-right:79px;" class="primary" text href="http://45.76.106.58/">
 <span>Dashboard</span>
 </v-btn>
 </v-app-bar>
