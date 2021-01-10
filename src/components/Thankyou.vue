@@ -9,9 +9,10 @@
             <div class="mt-2">
                 <blockquote> 
                   {{thanks_msg}}
+                 
                     <br>
                     <br>
-                   <span class="red--text"> (this is a dummy message and banner)</span>
+                   <!-- <span class="red--text"> (this is a dummy message and banner)</span> -->
                 </blockquote>
 
                 

@@ -103,7 +103,7 @@ export default new Vuex.Store({
         if(res.status == 200){
           state.loading = false;
           state.e1 = 4;
-          state.thanks_msg = 'Dear Investor, Your account has been successfully created. Our representative will contact you soon.';
+          state.thanks_msg = 'Your form has been submitted, we will get back to you in 2 business days.';
           
           // var send_mail = new FormData();
 
